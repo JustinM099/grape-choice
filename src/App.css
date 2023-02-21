@@ -1,3 +1,17 @@
+/* import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&display=swap") */
+
+ul {
+  list-style-type: disclosure-closed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter
+}
+
+.navbar {
+  background-color: #590c3a;
+}
+
 .App {
   text-align: center;
 }
@@ -13,8 +27,8 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-body {
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +42,23 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-card {
+  background-color: #89859e;
 }
+
+.grape-card {
+  border: none;
+  box-shadow: none
+}
+
+.club-card {
+  margin: 2%;
+}
+
+.popup-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
