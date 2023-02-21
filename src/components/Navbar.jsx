@@ -30,7 +30,7 @@ function Navbar() {
         <AppBar position="sticky" style={{ backgroundColor: "#620069" }}>
             <Container className="navbar" maxWidth="xl">
                 <Toolbar disableGutters>
-                    <Link to='home'>
+                    <Link to='Home'>
                         <img src={navbarLogo}
                             style={{ height: "3rem", paddingRight: "3px" }}
                             alt="logo"
@@ -40,7 +40,7 @@ function Navbar() {
                         variant="h6"
                         noWrap
                         component="a"
-                        href="/home"
+                        href="/Home"
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
@@ -99,7 +99,7 @@ function Navbar() {
                         variant="h5"
                         noWrap
                         component="a"
-                        href="/home"
+                        href="/Home"
                         sx={{
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
